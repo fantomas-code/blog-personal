@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Radon";
+    /* src: url('/resources/fonts/Radon-Medium.otf'); */
+    src: url('/resources/fonts/Alkatra-Regular.ttf');
+}
+
+.auth{
+    font-family: "Radon";
+    font-weight: 200;
+    background-image: url('/public/img/luna.jpg');
+    background-repeat: no-repeat;
+}
+
+.panel{
+    font-family: "Radon";
+}
